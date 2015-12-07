@@ -1,0 +1,441 @@
+{
+    "Adopted": {
+        "children": {
+            "Introduced (Agreed Calendar)": {
+                "children": {},
+                "counter": 103
+            },
+            "Rules Suspended - Immediate Consideration": {
+                "children": {},
+                "counter": 1
+            }
+        },
+        "counter": 117
+    },
+    "Direct Introduction": {
+        "children": {
+            "Deferred and Published": {
+                "children": {
+                    "Passed": {
+                        "children": {},
+                        "counter": 2
+                    }
+                },
+                "counter": 2
+            },
+            "Held in Committee": {
+                "children": {},
+                "counter": 1
+            },
+            "Recommended Do Not Pass": {
+                "children": {
+                    "Failed to Pass": {
+                        "children": {},
+                        "counter": 15
+                    },
+                    "Passed as Substitute": {
+                        "children": {},
+                        "counter": 1
+                    }
+                },
+                "counter": 16
+            },
+            "Recommended to Pass": {
+                "children": {
+                    "Adopted as Substitute": {
+                        "children": {},
+                        "counter": 1
+                    },
+                    "Approved": {
+                        "children": {},
+                        "counter": 2
+                    },
+                    "Passed": {
+                        "children": {
+                            "Signed by Mayor": {
+                                "children": {},
+                                "counter": 2
+                            }
+                        },
+                        "counter": 384
+                    },
+                    "Passed as Substitute": {
+                        "children": {},
+                        "counter": 52
+                    }
+                },
+                "counter": 440
+            }
+        },
+        "counter": 475
+    },
+    "Introduced (Agreed Calendar)": {
+        "children": {
+            "Adopted": {
+                "children": {},
+                "counter": 289
+            }
+        },
+        "counter": 314
+    },
+    "Passed": {
+        "children": {},
+        "counter": 5
+    },
+    "Placed on File": {
+        "children": {
+            "Placed on File": {
+                "children": {},
+                "counter": 1
+            }
+        },
+        "counter": 95
+    },
+    "Recommended to Pass": {
+        "children": {
+            "Approved": {
+                "children": {
+                    "Direct Introduction": {
+                        "children": {},
+                        "counter": 1
+                    }
+                },
+                "counter": 1
+            },
+            "Direct Introduction": {
+                "children": {
+                    "Passed": {
+                        "children": {},
+                        "counter": 1
+                    },
+                    "Passed as Substitute": {
+                        "children": {},
+                        "counter": 1
+                    }
+                },
+                "counter": 2
+            }
+        },
+        "counter": 3
+    },
+    "Referred": {
+        "children": {
+            "Amended in Committee": {
+                "children": {
+                    "Deferred and Published": {
+                        "children": {
+                            "Passed": {
+                                "children": {
+                                    "Signed by Mayor": {
+                                        "children": {},
+                                        "counter": 2
+                                    }
+                                },
+                                "counter": 2
+                            }
+                        },
+                        "counter": 4
+                    },
+                    "Passed as Substitute": {
+                        "children": {},
+                        "counter": 9
+                    },
+                    "Recommended to Pass": {
+                        "children": {
+                            "Passed as Substitute": {
+                                "children": {},
+                                "counter": 2
+                            }
+                        },
+                        "counter": 2
+                    }
+                },
+                "counter": 15
+            },
+            "Approved": {
+                "children": {
+                    "Recommended to Pass": {
+                        "children": {},
+                        "counter": 1
+                    }
+                },
+                "counter": 2
+            },
+            "Held in Committee": {
+                "children": {
+                    "Amended in Committee": {
+                        "children": {
+                            "Passed as Substitute": {
+                                "children": {},
+                                "counter": 3
+                            }
+                        },
+                        "counter": 3
+                    },
+                    "Held in Committee": {
+                        "children": {
+                            "Held in Committee": {
+                                "children": {},
+                                "counter": 1
+                            },
+                            "Recommended to Pass": {
+                                "children": {
+                                    "Passed": {
+                                        "children": {},
+                                        "counter": 1
+                                    },
+                                    "Passed as Substitute": {
+                                        "children": {},
+                                        "counter": 1
+                                    }
+                                },
+                                "counter": 2
+                            }
+                        },
+                        "counter": 7
+                    },
+                    "Passed": {
+                        "children": {},
+                        "counter": 2
+                    },
+                    "Recommended to Pass": {
+                        "children": {
+                            "Passed": {
+                                "children": {
+                                    "Signed by Mayor": {
+                                        "children": {},
+                                        "counter": 1
+                                    }
+                                },
+                                "counter": 7
+                            },
+                            "Passed as Substitute": {
+                                "children": {},
+                                "counter": 7
+                            }
+                        },
+                        "counter": 16
+                    }
+                },
+                "counter": 70
+            },
+            "Introduced (Agreed Calendar)": {
+                "children": {
+                    "Recommended to Pass": {
+                        "children": {
+                            "Adopted": {
+                                "children": {},
+                                "counter": 1
+                            }
+                        },
+                        "counter": 1
+                    }
+                },
+                "counter": 4
+            },
+            "Passed": {
+                "children": {},
+                "counter": 10
+            },
+            "Recommended Do Not Pass": {
+                "children": {
+                    "Failed to Pass": {
+                        "children": {},
+                        "counter": 23
+                    }
+                },
+                "counter": 23
+            },
+            "Recommended for Re-Referral": {
+                "children": {
+                    "Passed": {
+                        "children": {},
+                        "counter": 1
+                    },
+                    "Re-Referred": {
+                        "children": {
+                            "Passed": {
+                                "children": {},
+                                "counter": 1
+                            },
+                            "Recommended to Pass": {
+                                "children": {
+                                    "Passed": {
+                                        "children": {},
+                                        "counter": 1
+                                    },
+                                    "Passed as Substitute": {
+                                        "children": {},
+                                        "counter": 1
+                                    }
+                                },
+                                "counter": 3
+                            }
+                        },
+                        "counter": 6
+                    }
+                },
+                "counter": 8
+            },
+            "Recommended to Pass": {
+                "children": {
+                    "Adopted": {
+                        "children": {},
+                        "counter": 15
+                    },
+                    "Amended in Committee": {
+                        "children": {
+                            "Passed as Substitute": {
+                                "children": {},
+                                "counter": 4
+                            }
+                        },
+                        "counter": 4
+                    },
+                    "Approved": {
+                        "children": {
+                            "Approved": {
+                                "children": {},
+                                "counter": 1
+                            }
+                        },
+                        "counter": 101
+                    },
+                    "Deferred and Published": {
+                        "children": {
+                            "Passed": {
+                                "children": {
+                                    "Signed by Mayor": {
+                                        "children": {},
+                                        "counter": 5
+                                    }
+                                },
+                                "counter": 5
+                            }
+                        },
+                        "counter": 5
+                    },
+                    "Failed to Pass": {
+                        "children": {},
+                        "counter": 1
+                    },
+                    "Held in Committee": {
+                        "children": {
+                            "Held in Committee": {
+                                "children": {
+                                    "Amended in Committee": {
+                                        "children": {
+                                            "Passed as Substitute": {
+                                                "children": {},
+                                                "counter": 1
+                                            }
+                                        },
+                                        "counter": 1
+                                    }
+                                },
+                                "counter": 1
+                            }
+                        },
+                        "counter": 1
+                    },
+                    "Passed": {
+                        "children": {
+                            "Signed by Mayor": {
+                                "children": {},
+                                "counter": 11
+                            }
+                        },
+                        "counter": 2589
+                    },
+                    "Passed as Substitute": {
+                        "children": {
+                            "Passed": {
+                                "children": {},
+                                "counter": 1
+                            },
+                            "Signed by Mayor": {
+                                "children": {},
+                                "counter": 3
+                            }
+                        },
+                        "counter": 28
+                    },
+                    "Recommended to Pass": {
+                        "children": {
+                            "Passed": {
+                                "children": {},
+                                "counter": 2
+                            }
+                        },
+                        "counter": 2
+                    },
+                    "Substituted in Committee": {
+                        "children": {
+                            "Passed as Substitute": {
+                                "children": {},
+                                "counter": 2
+                            }
+                        },
+                        "counter": 2
+                    }
+                },
+                "counter": 2793
+            },
+            "Substituted in Committee": {
+                "children": {
+                    "Deferred and Published": {
+                        "children": {
+                            "Passed": {
+                                "children": {
+                                    "Signed by Mayor": {
+                                        "children": {},
+                                        "counter": 1
+                                    }
+                                },
+                                "counter": 1
+                            }
+                        },
+                        "counter": 1
+                    },
+                    "Passed as Substitute": {
+                        "children": {
+                            "Signed by Mayor": {
+                                "children": {},
+                                "counter": 2
+                            }
+                        },
+                        "counter": 7
+                    },
+                    "Recommended to Pass": {
+                        "children": {
+                            "Passed as Substitute": {
+                                "children": {},
+                                "counter": 2
+                            }
+                        },
+                        "counter": 3
+                    }
+                },
+                "counter": 12
+            },
+            "Withdrawn": {
+                "children": {},
+                "counter": 1
+            }
+        },
+        "counter": 4753
+    },
+    "Rules Suspended - Immediate Consideration": {
+        "children": {
+            "Adopted": {
+                "children": {},
+                "counter": 16
+            },
+            "Passed": {
+                "children": {},
+                "counter": 2
+            }
+        },
+        "counter": 18
+    }
+}
