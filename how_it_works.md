@@ -74,7 +74,8 @@ http://www.chicityclerk.com/city-council-news-central/rules-order
 
 At committee meetings, when committees formal consider bills, there
 can be discussion among the committee about a bill and the public has
-an opportunity to testify on each bill.
+an opportunity to testify on each bill. The conversation is usually
+pretty prefunctory.
 
 Committee meetings are recorded and transcribed. The transcriptions
 can be accessed through FOIA. Additionally, a list of people who
@@ -143,3 +144,79 @@ The legislative reference bureau helps aldermen research and draft
 ordinances.
 
 http://chicagolrb.org/
+
+## Gatekeepers
+
+In Chicago, aldermen mediate between residents and City
+government. Aldermen act as guides to the bureaucracy, routers of
+requests, and advocates for residents. Aldermen also act as
+gatekeepers with both official and unofficial veto power over
+applications that Chicagoans make to their government.
+
+Unlike other large American cities, in Chicago many types of
+applications require City Council approval. Of these, formal
+aldermanic support is required to apply to
+
+- subdivide a property
+- close a street for a block club party
+- hold an special event on the street or property or outdoors and
+  open to the public
+- put up a street sign or awning that extends over the sidewalk
+- use a sidewalk for cafe seating
+- set up a newspaper stand on the sidewalk
+- erect a tent or canopy larger than 400 square feet
+
+While not officially required, aldermanic support is effectively
+required for application to
+
+- change zoning
+- acquire city-owned land
+- receive an economic development tax incentive
+- make a residential street a permit parking zone
+- change where and how alcohol can be sold or consumed
+
+This unofficial control, also called "Aldermanic Prerogative," is an
+informal convention to let each alderman control applications from his
+or her ward. It is very rare that this convention is not honored and
+it's news when it breaks down.
+
+[evidence and links to news articles]
+
+Once introduced, this type of legislations move through city council
+very smoothly and quickly.
+
+[evidence]
+
+Since individual aldermen have discretion to approve or deny
+applications that can make or break a business, it is not surprising
+that these types of legislations have been the object of many cases of
+bribery and solicitation.
+
+Some North side aldermen have set up community review processes for
+land use advisory councils for community input into zoning changes,
+
+http://chicago47.org/projects/zoning/
+http://www.ward49.com/zoning-development/
+http://ward45.org/land-use/zoning/
+http://www.19thwardmobile.com/zoning-information/
+http://www.44thward.org/cddc/
+
+
+# Committee on Finance
+
+The Committee on Finance, and the aldermen who chairs that committee
+has special powers. 
+
+## Small Claims
+The committee on finance handles all small claims made against the city. This includes
+
+x, y, z
+
+## Settlements
+All settlements of legal cases must be also be, effectively, approved by the Committe on Finance.
+
+## Tag Day
+If a nonprofit wants to solicit for donations on the street or sidewalk they have to submit an application to the commiitee on Finance.
+
+- Tag Day - https://chicagocode.org/10/10-8/Ii/
+
