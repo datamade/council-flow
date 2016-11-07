@@ -1,31 +1,28 @@
-import urllib.request
+import requests
 import json
-import codecs
 
 BASE_URL = 'http://ocd.datamade.us/{}'
-UNICODE_READER = codecs.getreader("utf-8")
+
+session = requests.Session()
 
 def bill_pages(base_url) :
-
     page = 1
     while True :
-        with urllib.request.urlopen(base_url.format(page)) as bills_page :
-            bills = json.load(UNICODE_READER(bills_page))
-            yield bills['results']
-            if bills['meta']['page'] < bills['meta']['max_page'] :
-                page += 1
-            else :
-                break
+        response = session.get(base_url.format(page))
+        bills = response.json()
+                              
+        yield bills['results']
+        if bills['meta']['page'] < bills['meta']['max_page'] :
+            page += 1
+        else :
+            break
 
 def actions(base_url) :
     for bill_page in bill_pages(base_url) :
         for bill in bill_page :
-            with urllib.request.urlopen(BASE_URL.format(bill['id'])) as bp :
-                bill = json.load(UNICODE_READER(bp))
-                yield bill['actions']
-
-
-base_bill_page = 'http://ocd.datamade.us/bills/?from_organization=ocd-organization/ef168607-9135-4177-ad8e-c1f7a4806c3a&page={}'
+            response = session.get(BASE_URL.format(bill['id']))
+            bill = response.json()
+            yield bill['actions']
 
 
 def action_graph(sequence, graph) :
@@ -42,13 +39,19 @@ def action_graph(sequence, graph) :
     return graph
 
 
+if __name__ == '__main__':
 
-graph = {}
+    base_bill_page = 'http://ocd.datamade.us/bills/?from_organization=ocd-organization/ef168607-9135-4177-ad8e-c1f7a4806c3a&page={}'
 
-for i, bill_actions in enumerate(actions(base_bill_page)) :
-    if bill_actions :
-        graph = action_graph([act['description'] for act in bill_actions], graph)
+    graph = {}
 
-with open('flow.json', 'w') as outfile :
-    json.dump(graph, outfile, sort_keys=True, indent=4)
+    for i, bill_actions in enumerate(actions(base_bill_page)) :
+        if bill_actions :
+            graph = action_graph([act['description'] for act in bill_actions], graph)
+        if i % 100 == 0:
+            print(i)
+            
+
+    with open('flow.json', 'w') as outfile :
+        json.dump(graph, outfile, sort_keys=True, indent=4)
 
