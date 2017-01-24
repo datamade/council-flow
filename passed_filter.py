@@ -3,8 +3,8 @@ reload(sys)
 sys.setdefaultencoding('utf-8')
 
 page_num = 1
-writer = csv.writer(open('failed_clean.csv', 'w'))
-search_url = "http://ocd.datamade.us/bills/?from_organization=ocd-organization/ef168607-9135-4177-ad8e-c1f7a4806c3a&actions__description=Failed to Pass&legislative_session__identifier=2011&page=%d"
+writer = csv.writer(open('passed_clean.csv', 'w'))
+search_url = "http://ocd.datamade.us/bills/?from_organization=ocd-organization/ef168607-9135-4177-ad8e-c1f7a4806c3a&actions__description=Passed&legislative_session__identifier=2011&page=%d"
 while page_num:
 	print page_num
 	url = search_url % page_num
