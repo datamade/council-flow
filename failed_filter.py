@@ -3,15 +3,15 @@ import urllib, json, csv
 page_num = 1
 writer = csv.writer(open('failed_clean.csv', 'w'))
 search_url = "http://ocd.datamade.us/bills/?from_organization=ocd-organization/ef168607-9135-4177-ad8e-c1f7a4806c3a&actions__description=Failed to Pass&legislative_session__identifier=2011&page=%d"
-while page_num < 2:
+while page_num:
 	print page_num
 	url = search_url % page_num
 	response = urllib.urlopen(url)
 	failed_bills_raw = json.loads(response.read())
 	if not failed_bills_raw:
     		break
-	results = failed_bills_raw[u'results']
-	for item in results:
+	result = failed_bills_raw[u'results']
+	for item in result:
 		if u'id' in item and len(item[u'id']) > 0:
 			l = item[u'id']
 			url2 = "http://ocd.datamade.us/%s/" % l
