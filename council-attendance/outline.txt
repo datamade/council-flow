@@ -1,0 +1,36 @@
+meetings_csv:
+committee, date, alderman
+ 
+terms_csv:
+alderman, committee, start, end
+ 
+meetings_record[committee][date][alderman] = 1
+ 
+meetings_record = {}
+ 
+for every line in meetings_csv:
+  c = line.committee
+  d = line.date
+  a = line.alderman
+  if c is in meetings_record.keys():
+    if d is in meetings_record[c]:
+      meetings_record[c][d][a] = 1
+    else:
+      meetings_record[c][d] = {
+        a: 1
+      }
+  else:
+    meetings_record[c] = {
+      d: {
+        a: 1
+      }
+    }
+ 
+for every line in terms_csv:
+  a = line.alderman
+  for every committee_meeting in meetings_record[a.committee]:
+    dates = committee_meeting.keys()
+    for d in dates:
+      if d is in a.term:
+        if a not in meetings_record[a.committee][date].keys():
+          meetings_record[c][d][a] = 0

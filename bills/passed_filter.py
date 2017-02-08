@@ -24,8 +24,8 @@ while page_num:
 				if u'entity_name' in x:
 					sponsor = x[u'entity_name']
 				else:
-					sponsor = []
-			writer.writerow([info[u'title'], info[u'identifier'], sponsor, info[u'classification'], info[u'votes']])
+					sponsor = []			
+				writer.writerow([info[u'title'], info[u'identifier'], sponsor, info[u'classification'], info[u'votes']])
 		else:			
 			continue
 	page_num += 1
