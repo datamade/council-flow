@@ -45,5 +45,5 @@ for office in body_offices():
 
 for d in terms.items():
     
-    writer.writerow(d[])
+    writer.writerow(d)
 

@@ -5,13 +5,13 @@ sys.setdefaultencoding('utf-8')
 
 writer = csv.writer(open('attendance.csv', 'w'))
 terms = csv.reader(open('committee_terms_clean.csv', 'rU'))
-meetings = csv.reader(open('meeting_attendance_filter.csv', 'rU'))
+meetings = csv.reader(open('who_there.csv', 'rU'))
 
 meetings_record = {}
 
 for line in meetings:
 	c = line[0]
-	d = datetime.strptime(line[1] , '%m/%d/%y')
+	d = datetime.strptime(line[1] , '%m/%d/%y') 
 	a = line[2]
 	if c in meetings_record.keys():
 		if d in meetings_record[c]:
@@ -38,7 +38,7 @@ for line in terms:
 			for d in date:
 				if (d > st) and (d < en):
 					attendee = meetings_record[comm][d].keys()
-					if (ald not in attendee):
+					if ald not in attendee:
 						meetings_record[comm][d][ald] = 'absent'
 
 
